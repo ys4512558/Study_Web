@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.gong{
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.gong tr:hover{
+    background: #ccc;
+}
+.gong tr th{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+.gong tr td{
+    border-bottom: 1px dashed #ccc;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+}
+/* 첫번째 자식 */
+.gong tr td:first-child{
+    width: 10%;
+}
+/* N번쨰 자식 */
+.gong tr td:nth-child(2){
+    width: 15%;
+}
+.gong tr td:nth-child(3){
+    width: 50%;
+}
+.gong tr td:nth-child(4){
+    width: 15%;
+}
+/* 마지막 자식 */
+.gong tr td:last-child{
+    width: 10%;
+}

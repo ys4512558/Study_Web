@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/asics.css">
+    <script src="https://kit.fontawesome.com/09b067fdc5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script>
+        function removeItem(){
+            var dv = document.getElementById("x");
+            dv.parentElement.remove();
+        }
+    </script>
+</head>
+<body>
+    <div class="top">
+        <p>신규회원 가입 시, 10,000포인트 증정</p>
+        <p id="x" onclick=removeItem()>X</p>
+    </div>
+    <ul class="login">
+        <li>고객센터</li>
+        <li>회원혜택</li>
+        <li><strong>로그인/회원가입</strong></li>
+    </ul>
+    <ul class="menu">
+        <li><img src="img/asics/logo.png" alt=""></li>
+        <li class="items">남성</li>
+        <li class="items">여성</li>
+        <li class="items">아울렛</li>
+        <li class="items">스포츠</li>
+        <li class="items">컬렉션</li>
+        <li class="items">뉴스&이벤트</li>
+        <li>
+            <input type="text" name="" id="" placeholder="검색어">
+        </li>
+        <li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </li>
+        <li class="shop">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </li>
+    </ul>
+    <div class="big"> </div>
+
+    <ul class="img6">
+        <li><img src="img/asics/img (1).jpg" alt=""></li>
+        <li><img src="img/asics/img (2).jpg" alt=""></li>
+        <li><img src="img/asics/img (3).jpg" alt=""></li>
+        <li><img src="img/asics/img (4).jpg" alt=""></li>
+        <li><img src="img/asics/img (5).jpg" alt=""></li>
+        <li><img src="img/asics/img (6).jpg" alt=""></li>
+    </ul>
+    <ul class="img6_text">
+        <li>아식스 - 1 <br>가격 : 100,000</li>
+        <li>아식스 - 2 <br>가격 : 100,000</li>
+        <li>아식스 - 3 <br>가격 : 100,000</li>
+        <li>아식스 - 4 <br>가격 : 100,000</li>
+        <li>아식스 - 5 <br>가격 : 100,000</li>
+        <li>아식스 - 6 <br>가격 : 100,000</li>
+    </ul>
+</body>
+</html>

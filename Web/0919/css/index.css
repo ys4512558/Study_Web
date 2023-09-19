@@ -1,0 +1,108 @@
+*{
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: purple;
+    display: flex;
+}
+.menu div{
+    color: white;
+    border: 0px solid #ccc;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+}
+.menu div:hover{
+    font-size: 20px;
+    color: orange;
+}
+.menu div:first-child{
+    width: 20%;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.title{
+    width: 80%;
+    border: 0px solid blue;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.bigTitle{
+    font-size: 40px;
+    font-family: hy견고딕;
+    height: 100px;
+    line-height: 100px;
+}
+.smallTitle{
+    margin-top: -30px;
+    font-size: 20px;
+    text-indent: 100px;
+}
+.bigTitle2{
+    margin-top: -30px;
+    text-indent: 30px;
+}
+
+.imgs{
+    width: 80%;
+    height: 400px;
+    border: 0px solid black;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgs div{
+    width: 20%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-top: 25px;
+    /* overflow: hidden; */
+}
+.imgs div img{
+    width: 100%;
+    height: 100%;
+    transition : 0.5s; 
+    border-radius: 20px;
+}
+
+.imgs div img:hover{
+    transform: scale(1.5)
+}
+
+.icon{
+    width: 80%;
+    height: 70px;
+    border: 0px solid black;
+    margin: 0 auto;
+    display: flex;
+    /* line-height: 60px; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.icon div {
+    width: 10%;
+    height: 100%;
+    border: 0px solid red;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+.icon div:hover{
+    cursor: pointer;
+}
+.icon div p{
+    font-size: 12px;
+    margin-top : -15px;
+}
+.icon div i:hover{
+    color: red;
+    font-size: 45px;
+}
