@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{
+    /* 새로운 페이지 css 설정 시 추가하기 */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    width: 1440px;
+    height: 40px;
+    border: 0px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+header div{
+    width: 200px;
+    height: 40px;
+    border: 0px solid #ccc;
+}
+header div:first-child{
+    width: 500px;
+    margin-right: 800px;
+    background: url(../img/samsung/logo-gnb.svg) no-repeat center center;
+    background-size: 150px;
+}
+header div:nth-child(2){
+    width: 700px;
+}
+header div:nth-child(3){
+    background: url(../img/samsung/search.svg) no-repeat center center;
+}
+
+header div:nth-child(4){
+    background: url(../img/samsung/cart.svg) no-repeat center center;
+}
+header div:nth-child(5){
+    background: url(../img/samsung/mypage.svg) no-repeat center center;
+}
+header div input{
+    display: block;
+    width: 100%;
+    height: 95%;
+    text-indent: 20px;
+    border: 0px solid #ccc;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+/* nav */
+nav{
+    width: 1440px;
+    height: 30px;
+    border: 0px solid black;
+    margin: 0 auto;
+    display: flex;
+}
+nav div{
+    width: 50px;
+    border: 0px solid green;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 30px;
+}
+
+nav div:nth-child(3),
+nav div:nth-child(4),
+nav div:nth-child(5),
+nav div:nth-child(7),
+nav div:nth-child(9),
+nav div:nth-child(12),
+nav div:nth-child(13),
+nav div:nth-child(14),
+nav div:nth-child(15),
+nav div:nth-child(16),
+nav div:nth-child(17){
+    width: 80px;
+}
+nav div:nth-child(11){
+    margin-right: 330px;
+}
+
+.at0{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 700px;
+    background: url(../img/samsung/big1.jpg);
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.at0 p, .at0 button{
+    position: absolute;
+    color: black;
+    border: 0px solid black;
+}
+.at0 .at0_text1{
+    width: 600px;
+    font-size: 3.0rem;
+    font-weight: bolder;
+    top : 250px;
+    left: 200px;
+}
+
+.at0 .at0_text2{
+    width: 600px;
+    top : 330px;
+    left: 200px;
+}
+.at0 .at0_text3{
+    width: 600px;
+    top : 355px;
+    left: 200px;
+}
+
+.at0 .at0_text4{
+    width: 140px;
+    height: 27px;
+    top : 400px;
+    left: 200px;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 27px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.at0 .at0_text4:hover{
+    box-shadow: 5px 5px 5px rgb(53, 50, 50);
+}
+
+.tab{
+    width: 100%; height: 70px;
+    border: 0px solid #ccc;
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+}
+.tab li{
+    width: 150px;
+    border: 0px solid black;
+    text-align: center;
+    line-height: 70px;
+}
+.tab li:hover{
+    text-decoration: 3px underline rgb(178,178,178);
+    text-underline-offset: 10px;
+}
+
+.at1{
+    width: 1440px;
+    height: 700px;
+    border: 0px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.at1 div{
+    height: 300px;
+    padding: 20px;
+    border: 0px solid red;
+    justify-content: center;
+    display: flex;
+}
+.at1 div img{
+    border: 0px solid blue;
+    width: 300px;
+}
+
+.blank_area{
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    border: 1px solid red;
+}
