@@ -1,0 +1,66 @@
+.back {
+    width: 90%;
+    height: 500px;
+    border: 0px solid red;
+    background: url("/0920/img/kaist/back1.jpg");
+    background-size: 100% 100%;
+    margin: 30px auto;
+}
+
+.main {
+    width: 99%;
+    height: 200px;
+    border: 0px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .main li{
+    border: 1px solid red;
+    width: 14%; height: 100%;
+}
+.main li div{
+    width: 100%; height: 150px;
+}
+.main li div img{
+    width: 100%; height: 100%;
+    border: 1px solid red;
+}
+.main li p{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+} */
+
+.main li {
+    border: 0px solid green;
+    width: 14%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.main li div {
+    border: 0px solid blue;
+    width: 100%;
+    height: 150px;
+}
+
+.main li div img {
+    border: 0px solid red;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.main li div img:hover {
+    /* scale: 1.2; */
+    rotate: 360deg;
+    /* transform: scale(1.2); */
+}
+
+.main li p {
+    border: 0px solid purple;
+    width: 100%;
+}
