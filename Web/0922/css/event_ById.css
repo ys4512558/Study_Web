@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.big {
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.big img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    width: 85%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn li {
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#divNo {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+    font-size: 2rem;
+    display: block;
+}
+
+.shop {
+    width: 80%;
+    margin: 30px auto;
+    border: 0px solid #ccc;
+}
+
+.shop li {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.shop li div {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 0px solid #ccc;
+}
+
+.shop li div:nth-child(1) {
+    width: 20%;
+}
+
+.shop li div:nth-child(2) {
+    width: 20%;
+    text-align: left;
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#big {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+#no {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 50pxs;
+}

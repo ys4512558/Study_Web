@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+.title {
+    font-size: 2rem;
+    width: 300px;
+    height: 70px;
+    border: 0px solid red;
+    border-radius: 15px;
+    line-height: 70px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.title:hover {
+    background-color: black;
+    color: white;
+}
