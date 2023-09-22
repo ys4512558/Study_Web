@@ -32,13 +32,21 @@ window.onload = function () {
     calc = document.querySelector(".calc");
     su = document.querySelector(".su");
     kum = document.getElementById("kum");
+    mile = document.querySelector(".mile");
     calc.addEventListener("click", function () {
         price = Number(su.value) * 5000;
         kum.innerHTML = price + "원";
         if (price >= 10000) {
             var m = price / 10;
-            mile = document.querySelector(".mile");
             mile.innerHTML = m + " Point";
         }
     });
+    cancle = document.getElementById("cancle");
+    cancle.addEventListener("click", function () {
+        su.value = "";
+        price = 0;
+        kum.innerHTML = "";
+        mile.innerHTML = "";
+        m = 0;
+    })
 }
