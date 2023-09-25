@@ -1,0 +1,42 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+ul {
+    width: 1000px; height: 280px;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li {
+    width: 30%; height: 250px;
+    border: 0cm solid black;
+    cursor: pointer;
+    margin-top: 25px;
+}
+ul li div {
+    width: 100%; height: 150px;
+    border-radius: 20px;
+}
+ul li div img {
+    width: 100%; height: 100%;
+    border-radius: 20px;
+}
+ul li:hover p {
+    background: #f2f2f2; 
+}
+ul li p {
+    width: 100%; height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 0px solid red;
+}
+ul li p:nth-child(2) {
+    line-height: 70px;    
+}
+ul li p:nth-child(3) {
+    line-height: 30px;
+    font-size: 1.5rem;
+}

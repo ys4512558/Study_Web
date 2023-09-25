@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.form {
+    margin: 0 auto;
+    width: 1000px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.box {
+    margin: 0 auto;
+    width: 1000px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box div {
+    margin: 0 auto;
+    width: 10%;
+    border: 0px solid red;
+}
