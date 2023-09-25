@@ -5,7 +5,11 @@ $(document).ready(function () {
     for (let i = 0; i < data.length; i++) {
         console.log(data[i]);
     }
-
+    let k = 1;
+    do {
+        alert(k);
+        k++;
+    } while (k < 5);
 
     $(".nextB").on("click", function () {
         if (count < 5)
