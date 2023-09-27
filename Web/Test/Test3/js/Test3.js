@@ -38,7 +38,7 @@ window.onload = function () {
     dom_formula = document.getElementById("formula");
     dom_formula.innerHTML = "0";
 
-    
+
 }
 
 function addNum(num) {

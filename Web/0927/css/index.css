@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+nav {
+    width: 80%;
+    height: 70px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav div {
+    width: 7%;
+    cursor: pointer;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 70px;
+}
+
+#title {
+    width: 80%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+#imgs {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+#imgs li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: white;  */
+    /* text-align: center; */
+    line-height: 1100px;
+    font-size: 1rem;
+}
+
+#btn {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border: 0px solid blue;
+    display: flex;
+}
+
+#btn li {
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.select {
+    position: absolute;
+    top: 650px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.select li {
+    color: white;
+    width: 30px;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.num {
+    width: 100px;
+    height: 50px;
+    margin: 50px auto;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+.big {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+
+.big div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 3rem;
+    display: none;
+}
+
+.big .big4 {
+    display: block;
+}
+
+.opt {
+    position: absolute;
+    top: 950px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.opt li {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+}
+
+.opt li:hover {
+    background-color: rgb(90, 83, 83);
+}

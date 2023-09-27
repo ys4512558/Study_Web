@@ -1,6 +1,5 @@
 window.onload = function () {
     var cnt = 1;
-
     addBtn.onclick = function () {
         cnt++;
         no.innerHTML = cnt;
@@ -10,5 +9,5 @@ window.onload = function () {
         cnt--;
         no.innerHTML = cnt;
     }
-
 }
+
